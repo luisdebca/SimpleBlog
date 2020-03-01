@@ -12,10 +12,14 @@
         <e p="Migrations" t="Include">
           <e p="20200228062422_PostModelAttached.Designer.cs" t="Include" />
           <e p="20200228062422_PostModelAttached.cs" t="Include" />
+          <e p="20200301044428_AgregaModeloComment.Designer.cs" t="Include" />
+          <e p="20200301044428_AgregaModeloComment.cs" t="Include" />
           <e p="BlogContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="BlogContext.cs" t="Include" />
+          <e p="Comment.cs" t="Include" />
+          <e p="CommentConfig.cs" t="Include" />
           <e p="Post.cs" t="Include" />
           <e p="PostConfig.cs" t="Include" />
         </e>

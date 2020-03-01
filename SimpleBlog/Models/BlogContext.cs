@@ -9,6 +9,7 @@ namespace SimpleBlog.Models
         }
         
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -22,6 +23,7 @@ namespace SimpleBlog.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var postConfig = new PostConfig(modelBuilder.Entity<Post>());
+            var commentConfig = new CommentConfig(modelBuilder.Entity<Comment>());
         }
     }
 }
